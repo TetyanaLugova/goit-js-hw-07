@@ -13,13 +13,18 @@ body {
   line-height: 1.5;
 }
 
-.gallery{
+.gallery {
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   flex-wrap: wrap;
-  list-style: none;
+  justify-content: center;
+  list-style-type: none;
 }
 
+.gallery li {
+  margin: 10px;
+  width: calc((100% - 36px) / 3);
+}
 
 
 

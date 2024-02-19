@@ -1,7 +1,7 @@
 "use strict"
 
-const listItem = document.querySelectorAll(`.item`);
-console.log(`Number of categories: ${listItem.length}`);
+const listItems = document.querySelectorAll(`.item`);
+console.log(`Number of categories: ${listItems.length}`);
 
 const titles = document.querySelectorAll(`h2`);
 
